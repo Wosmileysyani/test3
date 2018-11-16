@@ -1,0 +1,13 @@
+<div class="wrap">
+	<section class="col-1-3" *ngFor = "let item of itemMenu">
+		<div class="wrap-col">
+			<div class="box" >
+				<div>
+					<h2 style="text-align: center">{{item.menu_code}}.{{item.menu_name}}</h2>
+					<figure><img src="{{item.img}}" alt="" class="img-fluid img-thumbnail"></figure>
+					<p class="pad_bot1"  style="text-align: center" style="width:100%">ราคา {{item.price}} บาท</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
